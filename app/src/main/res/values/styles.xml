@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0a4495</item>
+        <item name="colorPrimaryDark">#0a4495</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+        <attr format="reference" name="cardStyle"/>
+
+        <style name="Light" parent="Theme.AppCompat.NoActionBar">
+            <item name="cardStyle">@style/CardView.Light</item>
+
+        </style>
+
+        <style name="Dark" parent="Theme.AppCompat.NoActionBar">
+            <item name="cardStyle">@style/CardView.Dark</item>
+
+        </style>
+
+
+</resources>
